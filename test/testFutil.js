@@ -151,4 +151,22 @@ describe('Futil', function(){
 
 	});
 
+	describe('#getFileNameFromPath()', function(){
+
+		it('should come back test.tmp as the filename from the full path', function(){
+
+			var ext = futil.getFileNameFromPath('/path/to/fi.le/test.tmp');
+			expect(ext).to.equal('test.tmp');
+
+		});
+
+		it('should come back test.tmp for just a file name', function(){
+
+			var ext = futil.getFileNameFromPath('test.tmp');
+			expect(ext).to.equal('test.tmp');
+
+		});
+
+	});
+
 });
