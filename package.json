@@ -4,8 +4,6 @@
   "description": "File utility for Node.js",
   "main": "./lib",
   "dependencies": {
-    "lodash": "~4.4.0",
-    "moment": "~2.11.2",
     "node-uuid": "~1.4.3"
   },
   "devDependencies": {
@@ -30,6 +28,12 @@
     "name": "Andrew Bliss",
     "email": "andrewgbliss@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Joey Cozza",
+      "email": "joeycozza@gmail.com"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md"
 }
